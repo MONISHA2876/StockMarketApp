@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import { CANDLE_CHART_WIDGET_CONFIG } from "../lib/constants";
 
 export default function useTradingViewWidget(
   scriptUrl: string,
@@ -15,7 +14,7 @@ export default function useTradingViewWidget(
     containerRef.current.innerHTML = `<div class='tradingview-widget-container__widget style="width:100%; height:${height}"'></div>`;
 
     const script = document.createElement("script");
-    script.src = scriptUrl; //"https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js"
+    script.src = scriptUrl;
     script.type = "text/javascript";
     script.async = true;
     script.innerHTML = JSON.stringify(config);
