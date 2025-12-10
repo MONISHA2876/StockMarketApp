@@ -1,4 +1,4 @@
-t# 📈 StockMarketApp
+# 📈 StockMarketApp
 
 A sleek and modern **Stock Market Web App** built with **Nextjs16 + TradingView Widgets**.  
 Currently includes a polished Home Page and Authentication UI. Backend integration and database features are coming soon.
