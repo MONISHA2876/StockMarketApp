@@ -23,12 +23,10 @@ Currently includes a polished Home Page and Authentication UI. Backend integrati
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React  
-- **Styling:** CSS (Tailwind planned)  
+- **Frontend:** Nextjs16  
+- **Styling:** Tailwindcss 
 - **Charts:** TradingView Widgets  
-- **Auth (upcoming):** Firebase / Supabase  
-- **Database (upcoming):** Firestore / Supabase / MongoDB  
-- **API (upcoming):** AlphaVantage / Finnhub / Yahoo Finance API
+- **Database :** PostgreSQL
 
 ---
 
